@@ -8,7 +8,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class UserController {
 
     @RequestMapping(value = "/register") // this is used by Handler Mapping to uniquely identify the respective service methods
-    public void register(UserDto userDto) {
+    public ModelAndView register(UserDto userDto) {
+        System.out.println(userDto);
+        return new ModelAndView("home.jsp");
     }
 
     @RequestMapping(value = "/login")
