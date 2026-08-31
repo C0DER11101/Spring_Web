@@ -7,6 +7,7 @@
   <version>1.0-SNAPSHOT</version>
   <name>Spring_Web Maven Webapp</name>
   <url>http://maven.apache.org</url>
+
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -105,6 +106,22 @@
       <artifactId>jakarta.servlet-api</artifactId>
       <version>6.1.0</version>
       <scope>provided</scope>
+    </dependency>
+
+    <!-- Source: https://mvnrepository.com/artifact/jakarta.servlet.jsp.jstl/jakarta.servlet.jsp.jstl-api -->
+    <dependency>
+      <groupId>jakarta.servlet.jsp.jstl</groupId>
+      <artifactId>jakarta.servlet.jsp.jstl-api</artifactId>
+      <version>3.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+
+    <!-- Source: https://mvnrepository.com/artifact/org.glassfish.web/jakarta.servlet.jsp.jstl -->
+    <dependency>
+      <groupId>org.glassfish.web</groupId>
+      <artifactId>jakarta.servlet.jsp.jstl</artifactId>
+      <version>3.0.1</version>
+      <scope>compile</scope>
     </dependency>
 
   </dependencies>

@@ -5,27 +5,27 @@
             <table>
                 <tr>
                     <td>Name:</td>
-                    <td><input type="name"/></td>
+                    <td><input type="name" name="name"/></td>
                 </tr>
 
                 <tr>
                     <td>E-mail:</td>
-                    <td><input type="email"/></td>
+                    <td><input type="email" name="email"/></td>
                 </tr>
 
                 <tr>
                     <td>City:</td>
-                    <td><input type="city"/></td>
+                    <td><input type="city" name="city"/></td>
                 </tr>
 
                 <tr>
                     <td>Pincode:</td>
-                    <td><input type="pincode"/></td>
+                    <td><input type="pincode" name="pincode"/></td>
                 </tr>
 
                 <tr>
                     <td>Contact:</td>
-                    <td><input type="contact"/></td>
+                    <td><input type="contact" name="contact"/></td>
                 </tr>
 
                 <tr>
